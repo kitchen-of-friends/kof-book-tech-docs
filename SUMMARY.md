@@ -1,6 +1,6 @@
 # Table of contents
 
-## 🔮 深度社交协议 <a href="#soulful-link" id="soulful-link"></a>
+## 🎇 深度社交协议 <a href="#soulful-link" id="soulful-link"></a>
 
 * [🥳 简介](README.md)
 * [🏃‍♂️ 快速上手](soulful-link/kuai-su-shang-shou.md)
@@ -15,6 +15,10 @@
 * [6. 快速搭建自己的组织管理应用](examples/6.-kuai-su-da-jian-zi-ji-de-zu-zhi-guan-li-ying-yong.md)
 * [7. 快速搭建自己的知识搜索器](examples/7.-kuai-su-da-jian-zi-ji-de-zhi-shi-sou-suo-qi.md)
 * [8. 快速搭建自己的旅行社产品](examples/8.-kuai-su-da-jian-zi-ji-de-lv-hang-she-chan-pin.md)
+
+## 🍮 协议设计 <a href="#designs" id="designs"></a>
+
+* [核心原理](designs/he-xin-yuan-li.md)
 
 ## 📦 模块详情 <a href="#modules" id="modules"></a>
 
@@ -44,7 +48,3 @@
   * [接口](modules/m07-sheng-tai-gou-jian-mo-kuai-ecosystem-building-module-ebm/jie-kou.md)
 * [M98 - 支持模块 (Support Module)](modules/m98-zhi-chi-mo-kuai-support-module.md)
 * [M99 - 锡安模块 (Zion Module)](modules/m99-xi-an-mo-kuai-zion-module.md)
-
-## 🔬 设计原则 <a href="#designs" id="designs"></a>
-
-* [模块化思路](designs/mo-kuai-hua-si-lu.md)
