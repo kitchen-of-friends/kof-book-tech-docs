@@ -12,6 +12,7 @@
 * [6. 快速搭建自己的组织管理应用](examples/6.-kuai-su-da-jian-zi-ji-de-zu-zhi-guan-li-ying-yong.md)
 * [7. 快速搭建自己的知识搜索器](examples/7.-kuai-su-da-jian-zi-ji-de-zhi-shi-sou-suo-qi.md)
 * [8. 快速搭建自己的旅行社产品](examples/8.-kuai-su-da-jian-zi-ji-de-lv-hang-she-chan-pin.md)
+* [9. 快速搭建自己的灵活用工平台](examples/9.-kuai-su-da-jian-zi-ji-de-ling-huo-yong-gong-ping-tai.md)
 
 ## 🍮 协议设计 <a href="#designs" id="designs"></a>
 
