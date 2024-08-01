@@ -12,7 +12,7 @@ description: 难度等级：★☆☆，学习时间约 15 分钟。学完本篇
 
 我们知道，一个常见的应用架构是“用户前端-应用后端”的交互响应，两者通过 HTTP 协议进行通信。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>常规应用架构示意</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>常规应用架构示意</p></figcaption></figure>
 
 而朋厨深度社交协议为各位生态应用做了三件事情：
 
