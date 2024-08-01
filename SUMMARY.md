@@ -21,3 +21,7 @@
 * [神厨宇宙](designs/shen-chu-yu-zhou.md)
 * [卡米坊](designs/ka-mi-fang.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
+
+## 🦊 协议接入 <a href="#integrations" id="integrations"></a>
+
+* [🎹 接入方式](integrations/jie-ru-fang-shi.md)
