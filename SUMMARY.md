@@ -4,8 +4,8 @@
 
 ## 🏊‍♂️ 场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
-* [\[爆款💥\] 1.快速搭建自己品牌的报名小程序](examples/bao-kuan-1.-kuai-su-da-jian-zi-ji-pin-pai-de-bao-ming-xiao-cheng-xu.md)
-* [\[热门🔥\] 2. 快速搭建自己的笔记/帖子应用](examples/re-men-2.-kuai-su-da-jian-zi-ji-de-bi-ji-tie-zi-ying-yong.md)
+* [\[爆款💥\] 1. 快速搭建自己品牌的报名小程序](examples/bao-kuan-1.-kuai-su-da-jian-zi-ji-pin-pai-de-bao-ming-xiao-cheng-xu.md)
+* [\[爆款💥\] 2. 快速搭建自己的笔记/帖子应用](examples/bao-kuan-2.-kuai-su-da-jian-zi-ji-de-bi-ji-tie-zi-ying-yong.md)
 * [\[热门🔥\] 3. 快速搭建自己的电商平台](examples/re-men-3.-kuai-su-da-jian-zi-ji-de-dian-shang-ping-tai.md)
 * [\[热门🔥\] 4. 快速搭建自己的知识付费应用](examples/re-men-4.-kuai-su-da-jian-zi-ji-de-zhi-shi-fu-fei-ying-yong.md)
 * [5. 快速搭建自己的空间预约管理系统](examples/5.-kuai-su-da-jian-zi-ji-de-kong-jian-yu-yue-guan-li-xi-tong.md)
