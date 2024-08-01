@@ -3,9 +3,8 @@
 ## 🎇 深度社交协议 <a href="#soulful-link" id="soulful-link"></a>
 
 * [🥳 简介](README.md)
-* [🏃‍♂️ 快速上手](soulful-link/kuai-su-shang-shou.md)
 
-## 🏊‍♂️ 场景举例 <a href="#examples" id="examples"></a>
+## 🏊‍♂️ 场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
 * [\[爆款💥\] 1.快速搭建自己品牌的报名小程序](examples/bao-kuan-1.-kuai-su-da-jian-zi-ji-pin-pai-de-bao-ming-xiao-cheng-xu.md)
 * [\[热门🔥\] 2. 快速搭建自己的笔记/帖子应用](examples/re-men-2.-kuai-su-da-jian-zi-ji-de-bi-ji-tie-zi-ying-yong.md)

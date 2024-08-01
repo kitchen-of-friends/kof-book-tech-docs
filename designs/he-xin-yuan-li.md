@@ -11,7 +11,7 @@
 1. 所有用户数据会是统一联系的；
 2. 各个生态应用能够独立进行身份识别、用户管理操作；
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ```mermaid
 sequenceDiagram
@@ -25,10 +25,8 @@ graph LR
     B -- 是 --> C[返回用户信息]
     B -- 否 --> D{通过传入的手机号、身份证号\n看是否有关联身份}
     D -- 是 --> E[生成一个新的子账户，关联统一账户，返回信息]
-    D -- 否 --> F[生成新的统一账户、子账户，关联彼此，返回信息]r
+    D -- 否 --> F[生成新的统一账户、子账户，关联彼此，返回信息]
 ```
-
-
 
 ### 内容
 
