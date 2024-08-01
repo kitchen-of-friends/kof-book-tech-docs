@@ -16,7 +16,7 @@
 ## 🍮 协议设计 <a href="#designs" id="designs"></a>
 
 * [基础设定](designs/ji-chu-she-ding.md)
-* [身份验证](designs/shen-fen-yan-zheng.md)
+* [身份与关系](designs/shen-fen-yu-guan-xi.md)
 * [神厨宇宙](designs/shen-chu-yu-zhou.md)
 * [卡米坊](designs/ka-mi-fang.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
