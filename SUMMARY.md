@@ -1,8 +1,6 @@
 # Table of contents
 
-## 🎇 深度社交协议 <a href="#soulful-link" id="soulful-link"></a>
-
-* [🥳 简介](README.md)
+* [🥳 深度社交协议简介](README.md)
 
 ## 🏊‍♂️ 场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
