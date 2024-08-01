@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🥳 深度社交协议简介](README.md)
+* [☄️ 深度社交协议简介](README.md)
 
 ## 🏊‍♂️ 场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
@@ -15,12 +15,8 @@
 
 ## 🍮 协议设计 <a href="#designs" id="designs"></a>
 
-* [核心原理](designs/he-xin-yuan-li.md)
+* [基础设定](designs/ji-chu-she-ding.md)
 * [身份验证](designs/shen-fen-yan-zheng.md)
-* [M00 - 基础模块 (Abstract Module)](designs/m00-ji-chu-mo-kuai-abstract-module/README.md)
-  * [模型](designs/m00-ji-chu-mo-kuai-abstract-module/mo-xing.md)
-  * [接口](designs/m00-ji-chu-mo-kuai-abstract-module/jie-kou.md)
-* [M02 - 组织模块 (Organization Module, ORG)](designs/m02-zu-zhi-mo-kuai-organization-module-org/README.md)
-  * [模型](designs/m02-zu-zhi-mo-kuai-organization-module-org/mo-xing.md)
-  * [接口](designs/m02-zu-zhi-mo-kuai-organization-module-org/jie-kou.md)
-* [M99 - 锡安模块 (Zion Module)](designs/m99-xi-an-mo-kuai-zion-module.md)
+* [神厨宇宙](designs/shen-chu-yu-zhou.md)
+* [卡米坊](designs/ka-mi-fang.md)
+* [自由意志](designs/zi-you-yi-zhi.md)
