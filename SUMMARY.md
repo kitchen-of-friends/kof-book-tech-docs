@@ -25,3 +25,4 @@
 ## 🦊 协议接入 <a href="#integrations" id="integrations"></a>
 
 * [🎹 接入方式](integrations/jie-ru-fang-shi.md)
+* [🦸 小微社群专项支持](integrations/xiao-wei-she-qun-zhuan-xiang-zhi-chi.md)
