@@ -2,7 +2,7 @@
 description: 难度等级：★☆☆，学习时间约 15 分钟。学完本篇教程的效果：您能在一个上午内开发完属于您的活动应用
 ---
 
-# \[爆款💥] 1.快速搭建自己品牌的报名小程序
+# \[爆款💥] 1. 快速搭建自己品牌的报名小程序
 
 本篇讲述了在深度社交协议最常使用场景——搭建活动应用（微信小程序、APP等）的接入方法。使用朋厨深度社交协议，能够让您轻松地管理数据、掌握数据，加速开发并节省 **60%-80%** 的开发成本。
 
@@ -12,15 +12,15 @@ description: 难度等级：★☆☆，学习时间约 15 分钟。学完本篇
 
 我们知道，一个常见的应用架构是“用户前端-应用后端”的交互响应，两者通过 HTTP 协议进行通信。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>常规应用架构示意</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>常规应用架构示意</p></figcaption></figure>
 
 而朋厨深度社交协议为各位生态应用做了三件事情：
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>第一件事：前端模板化+个性可定制</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>第一件事：前端模板化+个性可定制</p></figcaption></figure>
 
 第一，将用户前端应用开发进行归纳，提供标准好看的开源模板样式，生态应用开发者可以在这些开源模板上快速构建、自定义改装；所有前端向后端的通信均封装在 SDK 包中，生态开发者不必熟悉协议全流程与琐碎细节；朋厨共创社区提供技术咨询、技术开发、样式设计等综合支持，由社区成员共同参与，价格低廉、质量高、速度快。
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>第二件事：标准化、安全、高性能的 SaaS 后端与后台</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>第二件事：标准化、安全、高性能的 SaaS 后端与后台</p></figcaption></figure>
 
 第二，将日常所需的功能进行模块化封装，形成一个高效、安全、好用的管理后台，也称为“协议操作器（Protocol Operator）”；我们会随着项目发展逐步开源后端代码，长期形成一个共同部署的“协议云村落”，做到开放、透明。
 
@@ -38,4 +38,65 @@ description: 难度等级：★☆☆，学习时间约 15 分钟。学完本篇
 
 ### C. 动手写代码
 
-【 即将上线 】
+前置知识：
+
+1. Github 与命令行的使用；
+2. JavaScript 开发语言与其包管理器 NPM 的使用；
+3. Uniapp 框架的使用；
+4. 微信小程序开发工具的安装与基础使用；
+
+
+
+**STEP 1 - 下载共识模型**
+
+**打开命令行，在想要保存代码的位置运行以下命令：**
+
+```
+git clone git@github.com:kitchen-of-friends/kof-t1-uniapp.git
+```
+
+安装所需要依赖包：
+
+```
+npm run install
+```
+
+下载完成后用合适编辑器打开项目代码，以 VsCode 为例：
+
+```
+code kof-t1-uniapp
+```
+
+
+
+**STEP 2 - 获取配置**
+
+登录神厨社测试官网 [https://stg.shenchushe.com/](https://stg.shenchushe.com/)，联系小客服获取测试环境信息。
+
+
+
+**（可选）STEP 3 - 自定义修改代码**
+
+如果有需要，可以按照自己需求修改共识模型代码。
+
+
+
+**STEP 4 - 修改基础配置并运行小程序**
+
+打开 src/App.vue 文件，根据上一步获取的信息，修改代码中的 eco\_id 和 eco\_code 两个信息
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+回到命令行中，运行：
+
+```
+npm run dev:mp-weixin
+```
+
+打开微信小程序开发工具，导入代码文件夹下 dist/dev/mp-weixin 文件夹，即可看到小程序预览：
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**（可选）STEP 5 - 真机测试、部署、申请审核、上线小程序**
+
+该部分可参照微信小程序官方的发布流程进行发布，至此，您已经快速搭建了您社区的活动小程序。

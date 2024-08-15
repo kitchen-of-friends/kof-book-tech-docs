@@ -11,7 +11,7 @@ description: 本章节为 M01 - 身份模块（Identity Control Module）的设�
 1. 所有用户数据会是统一联系的；
 2. 各个生态应用能够独立进行用户管理操作；
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>深度社交协议设计 - 统一身份认证机制</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>深度社交协议设计 - 统一身份认证机制</p></figcaption></figure>
 
 一个用户的统一账户与各个子账户均会持有一个“厨号”，可以看作是一个独立用户的唯一标识。该厨号从 0 开始编号，并随着用户数量增长而增加。通俗的解释，我们希望厨号成为下一代 QQ 号 😊
 
