@@ -55,10 +55,14 @@ description: 难度等级：★☆☆，学习时间约 15 分钟。学完本篇
 git clone git@github.com:kitchen-of-friends/kof-t1-uniapp.git
 ```
 
+{% hint style="info" %}
+如果在 git clone 的一步遇到 “permission deny” 的问题，请使用 ssh-add 添加 Github 上配置了的私钥信息，若之前未配置可能还需要先生成密钥，如果有疑问请搜索 “Github ssh key generate”
+{% endhint %}
+
 安装所需要依赖包：
 
 ```
-npm run install
+npm install
 ```
 
 下载完成后用合适编辑器打开项目代码，以 VsCode 为例：
@@ -99,4 +103,4 @@ npm run dev:mp-weixin
 
 **（可选）STEP 5 - 真机测试、部署、申请审核、上线小程序**
 
-该部分可参照微信小程序官方的发布流程进行发布，至此，您已经快速搭建了您社区的活动小程序。
+该部分可参照微信小程序官方的发布流程进行发布，至此，您已经成功快速搭建了您社区的活动小程序。
