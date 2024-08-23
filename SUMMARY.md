@@ -19,7 +19,8 @@
 * [基础设定](designs/ji-chu-she-ding.md)
 * [身份与关系](designs/shen-fen-yu-guan-xi.md)
 * [神厨宇宙](designs/shen-chu-yu-zhou.md)
-* [卡米坊](designs/ka-mi-fang.md)
+* [卡米坊](designs/ka-mi-fang/README.md)
+  * [DLC 1 - 可售卖票据 Ticket](designs/ka-mi-fang/dlc-1-ke-shou-mai-piao-ju-ticket.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
 
 ## 🦊 协议接入 <a href="#integrations" id="integrations"></a>
