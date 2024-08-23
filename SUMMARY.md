@@ -21,6 +21,10 @@
 * [神厨宇宙](designs/shen-chu-yu-zhou.md)
 * [卡米坊](designs/ka-mi-fang/README.md)
   * [DLC 1 - 可售卖票据 Ticket](designs/ka-mi-fang/dlc-1-ke-shou-mai-piao-ju-ticket.md)
+  * [DLC 2 - 可复制模板 Template](designs/ka-mi-fang/dlc-2-ke-fu-zhi-mu-ban-template.md)
+  * [DLC 3 - 可预约 Schedule](designs/ka-mi-fang/dlc-3-ke-yu-yue-schedule.md)
+  * [DLC 4 - 常规社交数值统计 InterStats](designs/ka-mi-fang/dlc-4-chang-gui-she-jiao-shu-zhi-tong-ji-interstats.md)
+  * [DLC 5 - 激励 Task](designs/ka-mi-fang/dlc-5-ji-li-task.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
 
 ## 🦊 协议接入 <a href="#integrations" id="integrations"></a>

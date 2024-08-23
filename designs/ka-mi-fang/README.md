@@ -38,9 +38,27 @@ classDiagram
     Goods: +Cat 商品小类
 ```
 
+
+
 #### DB Table - INTERACT
 
 除了 Goods 表，我们可以想象，还需要记录用户与该商品的交互，例如点赞，于是我们增加 Interact 这张表。该表同样对一切用户对商品的交互进行记录：点赞、购买、收藏...
+
+各个交互的数值表如下：
+
+| 交互       | 数值 | 意义    |
+| -------- | -- | ----- |
+| Foot     | 1  | 足迹，浏览 |
+| Like     | 2  | 点赞    |
+| Collect  | 3  | 收藏    |
+| Learn    | 4  | 完成学习  |
+| Share    | 5  | 分享    |
+| Comment  | 6  | 评论    |
+| Report   | 7  | 举报    |
+| Login    | 8  | 登录    |
+| TaskDone | 9  | 任务完成  |
+| Purchase | 10 | 购买    |
+| Publish  | 11 | 发布    |
 
 
 
