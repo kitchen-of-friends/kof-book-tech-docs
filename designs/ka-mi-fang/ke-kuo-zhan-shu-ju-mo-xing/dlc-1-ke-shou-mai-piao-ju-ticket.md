@@ -1,9 +1,3 @@
----
-description: >-
-  如同一个游戏的扩展补充包DLC（Downloadable content）一样，卡米坊的 Goods 支持一系列功能扩展，以让 “万物皆商品”
-  的设计理念得以拓展。
----
-
 # DLC 1 - 可售卖票据 Ticket
 
 第一个 DLC 是“可售卖票据”，它赋予了 Goods 以出售、核销票据的能力。从数据结构上看，Goods 会额外存在以下字段以实现 Ticket 模块：
