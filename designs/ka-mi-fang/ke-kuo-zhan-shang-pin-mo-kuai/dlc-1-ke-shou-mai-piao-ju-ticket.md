@@ -40,8 +40,8 @@ flowchart TD
     ApprovedStep --> |核销票据| BurntStep[Burnt 230]
     ApprovedStep --> |参与者得到批准后咕咕| PegionStep[Pegion 230]
     PendingApStep --> |管理员拒绝|RejectStep[Rejected 300]
-    WPStep[在 100 候补或 150 等批准时] --> |参与者得到批准前撤回/一直未有回复| WithdrawnStep[Withdrawn 400/Timeout 500]
-    CancelAct[任意状态管理员取消聚会]-.->|有钱退钱|CancelStep[EventCanceled 510]
+    WPStep[在 90 等待支付 或 100 候补或 150 等批准时] --> |参与者得到批准前撤回/一直未有回复/十分钟内未付款| WithdrawnStep[Withdrawn 400/Timeout 500]
+    CancelAct[任意状态管理员取消或人数不足自动取消聚会]-.->|有钱退钱|CancelStep[EventCanceled 510]
 ```
 
 
