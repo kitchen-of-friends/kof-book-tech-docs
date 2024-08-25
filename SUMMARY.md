@@ -1,8 +1,8 @@
 # Table of contents
 
-* [☄️ 深度社交协议简介](README.md)
+* [☄️ 零、深度社交协议简介](README.md)
 
-## 🏊‍♂️ 场景举例，快速上手！ <a href="#examples" id="examples"></a>
+## 🏊‍♂️ 一、场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
 * [\[爆款💥\] 1. 快速搭建自己品牌的报名小程序](examples/bao-kuan-1.-kuai-su-da-jian-zi-ji-pin-pai-de-bao-ming-xiao-cheng-xu.md)
 * [\[爆款💥\] 2. 快速搭建自己的笔记/帖子应用](examples/bao-kuan-2.-kuai-su-da-jian-zi-ji-de-bi-ji-tie-zi-ying-yong.md)
@@ -14,7 +14,7 @@
 * [8. 快速搭建自己的旅行社产品](examples/8.-kuai-su-da-jian-zi-ji-de-lv-hang-she-chan-pin.md)
 * [9. 快速搭建自己的灵活用工平台](examples/9.-kuai-su-da-jian-zi-ji-de-ling-huo-yong-gong-ping-tai.md)
 
-## 🍮 协议设计 <a href="#designs" id="designs"></a>
+## 🍮 二、协议设计 <a href="#designs" id="designs"></a>
 
 * [基础设定](designs/ji-chu-she-ding.md)
 * [身份与关系](designs/shen-fen-yu-guan-xi.md)
@@ -30,7 +30,7 @@
   * [积分金融化](designs/ka-mi-fang/ji-fen-jin-rong-hua.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
 
-## 🦊 协议接入 <a href="#integrations" id="integrations"></a>
+## 🦊 三、协议接入 <a href="#integrations" id="integrations"></a>
 
 * [🎹 接入方式](integrations/jie-ru-fang-shi.md)
 * [🦸 小微社群专项支持](integrations/xiao-wei-she-qun-zhuan-xiang-zhi-chi.md)
