@@ -1,5 +1,6 @@
 ---
 description: 本章节为 M03 - 卡米模块（Kami Module）的设计内容
+icon: wand-magic-sparkles
 ---
 
 # 卡米坊

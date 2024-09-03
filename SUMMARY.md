@@ -1,8 +1,8 @@
 # Table of contents
 
-* [☄️ 零、深度社交协议简介](README.md)
+* [零、深度社交协议简介](README.md)
 
-## 🏊‍♂️ 一、场景举例，快速上手！ <a href="#examples" id="examples"></a>
+## 一、场景举例，快速上手！ <a href="#examples" id="examples"></a>
 
 * [\[爆款💥\] 1. 快速搭建自己品牌的报名小程序](examples/bao-kuan-1.-kuai-su-da-jian-zi-ji-pin-pai-de-bao-ming-xiao-cheng-xu.md)
 * [\[爆款💥\] 2. 快速搭建自己的笔记/帖子应用](examples/bao-kuan-2.-kuai-su-da-jian-zi-ji-de-bi-ji-tie-zi-ying-yong.md)
@@ -14,11 +14,19 @@
 * [8. 快速搭建自己的旅行社产品](examples/8.-kuai-su-da-jian-zi-ji-de-lv-hang-she-chan-pin.md)
 * [9. 快速搭建自己的灵活用工平台](examples/9.-kuai-su-da-jian-zi-ji-de-ling-huo-yong-gong-ping-tai.md)
 
-## 🍮 二、协议设计 <a href="#designs" id="designs"></a>
+## 二、协议设计 <a href="#designs" id="designs"></a>
 
 * [基础设定](designs/ji-chu-she-ding.md)
-* [身份与关系](designs/shen-fen-yu-guan-xi.md)
-* [神厨宇宙](designs/shen-chu-yu-zhou.md)
+* [身份与关系](designs/shen-fen-yu-guan-xi/README.md)
+  * [深度社交账户](designs/shen-fen-yu-guan-xi/shen-du-she-jiao-zhang-hu.md)
+  * [开放社交关系](designs/shen-fen-yu-guan-xi/kai-fang-she-jiao-guan-xi.md)
+  * [模块交互](designs/shen-fen-yu-guan-xi/mo-kuai-jiao-hu/README.md)
+    * [流程：用户注册与登录（应用端）](designs/shen-fen-yu-guan-xi/mo-kuai-jiao-hu/liu-cheng-yong-hu-zhu-ce-yu-deng-lu-ying-yong-duan.md)
+* [神厨宇宙](designs/shen-chu-yu-zhou/README.md)
+  * [组织层次设定](designs/shen-chu-yu-zhou/zu-zhi-ceng-ci-she-ding.md)
+  * [组织角色与权限](designs/shen-chu-yu-zhou/zu-zhi-jue-se-yu-quan-xian.md)
+  * [模块交互](designs/shen-chu-yu-zhou/mo-kuai-jiao-hu/README.md)
+    * [流程：](designs/shen-chu-yu-zhou/mo-kuai-jiao-hu/liu-cheng.md)
 * [卡米坊](designs/ka-mi-fang/README.md)
   * [三元标准抽象](designs/ka-mi-fang/san-yuan-biao-zhun-chou-xiang.md)
   * [可扩展商品模块](designs/ka-mi-fang/ke-kuo-zhan-shang-pin-mo-kuai/README.md)
@@ -30,7 +38,7 @@
   * [积分金融化](designs/ka-mi-fang/ji-fen-jin-rong-hua.md)
 * [自由意志](designs/zi-you-yi-zhi.md)
 
-## 🦊 三、协议接入 <a href="#integrations" id="integrations"></a>
+## 三、协议接入 <a href="#integrations" id="integrations"></a>
 
-* [🎹 接入方式](integrations/jie-ru-fang-shi.md)
-* [🦸 小微社群专项支持](integrations/xiao-wei-she-qun-zhuan-xiang-zhi-chi.md)
+* [接入方式](integrations/jie-ru-fang-shi.md)
+* [小微社群专项支持](integrations/xiao-wei-she-qun-zhuan-xiang-zhi-chi.md)

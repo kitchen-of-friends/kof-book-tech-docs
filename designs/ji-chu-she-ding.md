@@ -1,5 +1,6 @@
 ---
 description: 本章节为 M00 - 抽象模块（Abstract Module）的设计内容
+icon: tent
 ---
 
 # 基础设定

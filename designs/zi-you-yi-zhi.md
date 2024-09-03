@@ -1,5 +1,6 @@
 ---
 description: 本章节为 M99 - 锡安模块（Zion Module）的设计内容
+icon: thought-bubble
 ---
 
 # 自由意志
