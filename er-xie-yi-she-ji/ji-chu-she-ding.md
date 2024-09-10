@@ -1,6 +1,6 @@
 ---
-description: 本章节为 M00 - 抽象模块（Abstract Module）的设计内容
 icon: tent
+description: 本章节为 M00 - 抽象模块（Abstract Module）的设计内容
 ---
 
 # 基础设定
@@ -17,7 +17,15 @@ icon: tent
 
 一条数据有多种状态，朋厨规定任意资源状态以 int 类型，“state”为名称的字段存储，并且状态采用以下的数值表示对应状态：
 
-<table><thead><tr><th width="176">资源码</th><th>含义</th><th>是否常用</th></tr></thead><tbody><tr><td>1</td><td>用户新创建且正在编辑资源</td><td>是</td></tr><tr><td>100</td><td>资源正在审核中</td><td>是</td></tr><tr><td>120</td><td>审核失败（送进120急救室）</td><td>是</td></tr><tr><td>200</td><td>审核通过，正常状态</td><td>是，大部分资源都是 200 上线状态</td></tr><tr><td>205</td><td>拼车中的状态，成功转200，不成功转 410</td><td></td></tr><tr><td>210</td><td>资源已使用过，例如用户领取过该资源</td><td></td></tr><tr><td>220</td><td>资源已满员，活动已报名满</td><td></td></tr><tr><td>250</td><td>资源处于“正在进行中”的状态</td><td></td></tr><tr><td>280</td><td>资源已经结束</td><td>是</td></tr><tr><td>300</td><td>用户选择暂停资源，前端依旧可见</td><td></td></tr><tr><td>350</td><td>资源处于冻结状态（因审核/举报），前端不可见</td><td>是</td></tr><tr><td>400</td><td>用户选择封存，前端可见</td><td></td></tr><tr><td>410</td><td>资源过期</td><td></td></tr><tr><td>500</td><td>用户选择永久删除，前端不可见</td><td>是</td></tr><tr><td>600</td><td>被管理员封禁，前端不可见</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="176">资源码</th><th>含义</th><th>是否常用</th></tr></thead><tbody><tr><td>1</td><td>用户新创建且正在编辑资源</td><td>是</td></tr><tr><td>100</td><td>资源正在审核中</td><td>是</td></tr><tr><td>200</td><td>审核通过，正常状态</td><td>是，大部分资源都是 200 上线状态</td></tr><tr><td>205</td><td>拼车中的状态，成功转200，不成功转 410</td><td></td></tr><tr><td>210</td><td>激励校验完毕的正常状态，例如用户领取过该资源</td><td></td></tr><tr><td>220</td><td>资源已满员，活动已报名满</td><td></td></tr><tr><td>250</td><td>资源处于“正在进行中”的状态</td><td></td></tr><tr><td>280</td><td>资源已经结束</td><td>是</td></tr><tr><td>300</td><td>用户选择封存资源，前端依旧可见</td><td></td></tr><tr><td>410</td><td>资源过期</td><td></td></tr><tr><td>420</td><td>自动审核失败</td><td>是</td></tr><tr><td>450</td><td>资源处于冻结状态（因举报），前端不可见</td><td>是</td></tr><tr><td>455</td><td>资源处于冻结状态（因管理员下架），前端不可见</td><td></td></tr><tr><td>500</td><td>用户选择永久删除，前端不可见</td><td>是</td></tr></tbody></table>
+
+资源码满足以下逻辑：
+
+* 1XX 都是编辑状态，用户前端不可见，管理前端不可见
+* 2XX 都是开放状态，用户前端可见，管理前端可见
+* 3XX 都是封存状态，用户前端可见，管理前端可见
+* 4XX 都是临时状态，用户前端不可见，管理前端可见
+* 5XX 都是永久状态，用户和管理前端不可见，开发后端可见
 
 
 
